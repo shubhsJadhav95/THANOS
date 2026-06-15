@@ -16,7 +16,8 @@ k apply -R -f prometheus-operator
 ```
 k get po -n monitoring
 ```
-#### APPLY AN PROMETHEUS
+#### APPLY AN PROMETHEUS 
+#### UPDATE SG RULE FOR 9090 and 9000
 
 ```
 k apply -f prometheus
